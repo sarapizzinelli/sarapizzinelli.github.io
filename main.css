@@ -329,7 +329,7 @@ footer {
 	/*FOOTER*/
 	footer {
 		display: flex;
-		position: absolute;
+		position: fixed;
 		bottom: 0;
 		padding: 20px;
 		width: calc(100% - 40px);
