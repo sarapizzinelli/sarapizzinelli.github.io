@@ -1,8 +1,20 @@
 /*OVERALL*/
 @font-face{
-  font-family: Valentine;
-  src: url(fonts/Valentine-Regular.woff2);
-  font-weight: normal;
+  font-family: HKGrotesk;
+  src: url(fonts/HKGrotesk-Medium.woff);
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face{
+  font-family: HKGrotesk;
+  src: url(fonts/HKGrotesk-SemiBold.woff);
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face{
+  font-family: HKGrotesk;
+  src:url(fonts/HKGrotesk-Bold.woff);
+  font-weight: bolder;
   font-style: normal;
 }
 
@@ -13,6 +25,8 @@
 }
 
 * {
+	font-family: HKGrotesk;
+	font-weight: 100;
   /*unselectable*/
   -webkit-user-select: none;  
   -moz-user-select: none;
@@ -286,6 +300,7 @@ footer {
 	.projects_main {
 		height: calc(100vh - 220px);
 		border-bottom: 0;
+		scroll-snap-type: none;
 	}
 	.projects_main > .project_line {
 		flex-direction: column;
@@ -329,12 +344,13 @@ footer {
 	/*FOOTER*/
 	footer {
 		display: flex;
-		position: fixed;
+		position: absolute;
 		bottom: 0;
 		padding: 20px;
 		width: calc(100% - 40px);
 		justify-content: space-between;
 		background-color: white;
+		z-index: 5;
 	}
 	footer a {
 		color: var(--pink);
