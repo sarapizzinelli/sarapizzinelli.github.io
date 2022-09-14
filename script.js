@@ -38,7 +38,7 @@ jQuery.get('projects.txt', function(data) {
             "</div>" ).appendTo($('.projects_main'));
 
             for (j=0; j<images.length; j++){
-    			$( "<img alt='project_"+i+"_"+j+"' onclick='openImage(this)' src='images/"+
+    			$( "<img loading='lazy' alt='project_"+i+"_"+j+"' onclick='openImage(this)' src='images/"+
     				images[j]+"'>" ).appendTo($('#gallery_'+i));
     				if (i == 1){
     					//console.log(j, $('img[alt=project_'+i+'_'+j+']').width());
@@ -52,7 +52,7 @@ jQuery.get('projects.txt', function(data) {
     				
     			$( "<figure>"+
     				"<div class='imageArrowLeft'></div>"+
-    				"<img alt='project_"+i+"_"+j+"' class='insideImg' src='images/"+images[j]+"'>"+
+    				"<img loading='lazy' alt='project_"+i+"_"+j+"' class='insideImg' src='images/"+images[j]+"'>"+
     				"<div class='imageArrowRight'></div>"+
     				"</figure>" ).appendTo($('#lightbox_'+i+' > .lightbox_gallery'));
     		}
@@ -142,7 +142,17 @@ jQuery.get('projects.txt', function(data) {
 
 function openAbout(moreButton) {
 	$('.about_page').toggleClass('translateOnView');
-	$('.projects_main').toggleClass('halfOpacity');
+
+	if (!$('.about_page_background').hasClass('displayBlock')){
+		$('.about_page_background').addClass('displayBlock');
+		setTimeout(function() {
+			$('.about_page_background').addClass('visible');
+		}, 10);
+	} else {
+		$('.about_page_background').removeClass('visible');
+		$('.about_page_background').removeClass('displayBlock');
+	}
+
 	$(moreButton).toggleClass('colorWhite');
 
 	if ($(moreButton).hasClass('colorWhite')){
@@ -151,9 +161,16 @@ function openAbout(moreButton) {
 		$('.moreButton')[0].innerText = 'more';
 	}
 }
+function closeAbout(aboutBackground) {
+	$(aboutBackground).removeClass('visible');
+	$(aboutBackground).removeClass('displayBlock');
+
+	$('.about_page').removeClass('translateOnView');
+	$('.moreButton').removeClass('colorWhite');
+	$('.moreButton')[0].innerText = 'more';
+}
 
 function openImage(image) {
-
 	if(image.tagName == 'IMG'){
 		var thisProjectNumber = image.parentElement.id.replace('gallery_','');
 		var thisImageAlt = image.alt;
@@ -164,6 +181,12 @@ function openImage(image) {
 	} else if(image.tagName == 'DIV'){
 		var thisProjectNumber = image.parentElement.id.replace('project_','');
 		if(!$('#lightbox_'+thisProjectNumber).hasClass('displayNone')){
+			
+			$('#lightbox_'+thisProjectNumber).removeClass('opacityOne');
+			setTimeout(function(){
+				$('#lightbox_'+thisProjectNumber).addClass('displayNone');
+			}, 600);
+			$('#project_'+thisProjectNumber+' > .info > *').removeClass('colorPink');
 			return
 		}
 	}
@@ -174,16 +197,16 @@ function openImage(image) {
 	openedProject.removeClass('opacityOne');
 	setTimeout(function(){
 		openedProject.addClass('displayNone');
-		$('.gallery').addClass('displayNone');
-	}, 600);
+		//$('.gallery').addClass('displayNone');
+	}, 600); /*make it more than 600*/
 
 	$('.lightbox_gallery').animate({
 		scrollLeft: 0
 	}, 0);
 
-	$('.project_line > .info > .title').removeClass('colorPink');
-	$('#lightbox_'+thisProjectNumber).removeClass('displayNone');
+	$('.project_line > .info > *').removeClass('colorPink');
 
+	$('#lightbox_'+thisProjectNumber).removeClass('displayNone');
 	setTimeout(function(){
 		$('#lightbox_'+thisProjectNumber).addClass('opacityOne');
 	}, 10);
@@ -206,7 +229,7 @@ function openImage(image) {
 		}, 400);
 	}
 
-	$('#project_'+thisProjectNumber+' > .info > .title').addClass('colorPink');
+	$('#project_'+thisProjectNumber+' > .info > *').addClass('colorPink');
 }
 
 function closeImage(image) {
@@ -219,5 +242,5 @@ function closeImage(image) {
 		$('#lightbox_'+thisProjectNumber).addClass('displayNone');
 	}, 600);
 
-	$('#project_'+thisProjectNumber+' > .info > .title').removeClass('colorPink');
+	$('#project_'+thisProjectNumber+' > .info > *').removeClass('colorPink');
 }
