@@ -1,0 +1,223 @@
+jQuery.get('projects.txt', function(data) {
+    var myText = data;
+
+    const rule_speaker  = /<speaker>.*?<speaker>/g;
+	const aboutText = myText.match(/<about>.*?<about>/)[0].replaceAll('<about>','');
+	const projTitles = myText.match(/<title>.*?<\/>/g);
+	const projYears = myText.match(/<year>.*?<\/>/g);
+	const projCategories = myText.match(/<category>.*?<\/>/g);
+	const projDescription = myText.match(/<description>.*?<\/>/g);
+	const projImages = myText.match(/<images>.*?<\/>/g);
+
+	//console.log(myText);
+	//console.log(aboutText);
+	//console.log(projTitles);
+	//console.log(projYears);
+	//console.log(projCategories);
+
+    $(document).ready(function() {
+    	$('.about_page')[0].innerText = aboutText;
+    	
+    	for (i=0; i<projTitles.length; i++){
+    		var images = projImages[i].replaceAll('<images>','').replaceAll('</>','').split(',');
+
+    		$( "<div id='project_"+i+"' class='project_line'>"+
+				"<div class='info' onclick='openImage(this)'>"+
+	                "<div class='year'>"+projYears[i].replaceAll('<year>','')+"</div>"+
+	                "<div class='category'>"+projCategories[i].replaceAll('<category>','')+"</div>"+
+	                "<div class='title'>"+projTitles[i].replaceAll('<title>','')+"</div>"+
+	            "</div>"+
+	            "<div id='gallery_"+i+"' class='gallery'>"+
+	            "</div>"+
+			"</div>"+
+			"<div id='lightbox_"+i+"' class='lightbox displayNone'>"+
+				"<div class='closeButton' onclick='closeImage(this)'>close</div>"+
+	            "<div class='lightbox_gallery'>"+
+	            "</div>"+
+	            "<div class='description'>"+projDescription[i]+"</div>"+
+            "</div>" ).appendTo($('.projects_main'));
+
+            for (j=0; j<images.length; j++){
+    			$( "<img alt='project_"+i+"_"+j+"' onclick='openImage(this)' src='images/"+
+    				images[j]+"'>" ).appendTo($('#gallery_'+i));
+    				if (i == 1){
+    					//console.log(j, $('img[alt=project_'+i+'_'+j+']').width());
+    					//console.log($('img[alt=project_'+i+'_'+j+']').width()*(j+1));
+    					//console.log('total', $('#gallery_'+i).width());
+
+    					/*if($('img[alt=project_'+i+'_'+j+']').width()*(j+1) < $('#gallery_'+i).width()){
+	    					$('img[alt=project_'+i+'_'+j+']').clone().appendTo($('#gallery_'+i));
+	    				}*/
+    				}
+    				
+    			$( "<figure>"+
+    				"<div class='imageArrowLeft'></div>"+
+    				"<img alt='project_"+i+"_"+j+"' class='insideImg' src='images/"+images[j]+"'>"+
+    				"<div class='imageArrowRight'></div>"+
+    				"</figure>" ).appendTo($('#lightbox_'+i+' > .lightbox_gallery'));
+    		}
+    	}
+
+    	var rows = $('.project_line');
+
+    	for (i=0; i<rows.length; i++){
+    		var imagesInThisRow = rows[i].querySelectorAll('img');
+    		//console.log($(imagesInThisRow[imagesInThisRow.length-1]).width()*(imagesInThisRow.length));
+    		
+    		/*if($(imagesInThisRow[imagesInThisRow.length-1]).width()*(imagesInThisRow.length) < $(rows[i].getElementsByClassName('gallery')[0]).width()){
+		    	console.log('ok');
+		    	$(imagesInThisRow).clone().appendTo($('#gallery_'+i));
+		    }*/
+
+		    while(true){
+		    	var actualImagesInThisRow = rows[i].querySelectorAll('img');
+		    	$(imagesInThisRow).clone().appendTo($('#gallery_'+i));
+		    	//console.log($(imagesInThisRow[imagesInThisRow.length-1]).width()*(imagesInThisRow.length));
+		    	//console.log($(rows[i].getElementsByClassName('gallery')[0]).width());
+		    	
+		    	if($(imagesInThisRow[imagesInThisRow.length-1]).width()*(actualImagesInThisRow.length) > $(rows[i].getElementsByClassName('gallery')[0]).width()){
+		    		break;
+		    	}
+		    }
+    	}
+
+    	/*ARROWS*/
+		$(".imageArrowLeft").on('click', function(event) {
+			event.preventDefault();
+			$(".lightbox > .lightbox_gallery > figure").css("scroll-snap-align", "none");
+			$(".lightbox > .lightbox_gallery").css("overflow", "hidden");
+			
+			if ($(this).parent().is(':first-child')) {
+				$(this).parent().parent().animate({
+					scrollLeft: ($(this).parent().width() * $(this).parent().parent().children().length)
+				}, 400);
+				setTimeout(function() {
+					$(".lightbox > .lightbox_gallery > figure").css("scroll-snap-align", "start");
+					$(".lightbox > .lightbox_gallery").css("overflow", "scroll");
+				}, 400);
+				return
+			}
+			
+			$(this).parent().parent().animate({
+				scrollLeft: '-='+($(this).parent().width())
+			}, 400);
+			setTimeout(function() {
+				$(".lightbox > .lightbox_gallery > figure").css("scroll-snap-align", "start");
+				$(".lightbox > .lightbox_gallery").css("overflow", "scroll");
+			}, 400);
+			return
+		});
+
+		$(".imageArrowRight").on('click', function(event) {
+			event.preventDefault();
+			
+			$(".lightbox > .lightbox_gallery > figure").css("scroll-snap-align", "none");
+			$(".lightbox > .lightbox_gallery").css("overflow", "hidden");
+			
+			if ($(this).parent().is(':last-child')) {
+				$(this).parent().parent().animate({
+					scrollLeft: 0
+				}, 400);
+				setTimeout(function() {
+					$(".lightbox > .lightbox_gallery > figure").css("scroll-snap-align", "start");
+					$(".lightbox > .lightbox_gallery").css("overflow", "scroll");
+				}, 400);
+				return
+			}
+
+			$(this).parent().parent().animate({
+				scrollLeft: '+='+($(this).parent().width())
+			}, 400);
+			setTimeout(function() {
+				$(".lightbox > .lightbox_gallery > figure").css("scroll-snap-align", "start");
+				$(".lightbox > .lightbox_gallery").css("overflow", "scroll");
+			}, 400);
+			return
+		});
+    });
+});
+
+
+
+
+function openAbout(moreButton) {
+	$('.about_page').toggleClass('translateOnView');
+	$('.projects_main').toggleClass('halfOpacity');
+	$(moreButton).toggleClass('colorWhite');
+
+	if ($(moreButton).hasClass('colorWhite')){
+		$('.moreButton')[0].innerText = 'less';
+	} else {
+		$('.moreButton')[0].innerText = 'more';
+	}
+}
+
+function openImage(image) {
+
+	if(image.tagName == 'IMG'){
+		var thisProjectNumber = image.parentElement.id.replace('gallery_','');
+		var thisImageAlt = image.alt;
+		var thisImageNumber = thisImageAlt.replace('project_','').replace(thisProjectNumber, '').replace('_','');
+		if(!$('#lightbox_'+thisProjectNumber).hasClass('displayNone')){
+			return
+		}
+	} else if(image.tagName == 'DIV'){
+		var thisProjectNumber = image.parentElement.id.replace('project_','');
+		if(!$('#lightbox_'+thisProjectNumber).hasClass('displayNone')){
+			return
+		}
+	}
+
+	/*$('.lightbox').removeClass('opacityOne');
+	$('.lightbox').addClass('displayNone');*/
+	var openedProject = $('.lightbox:not(.displayNone)');
+	openedProject.removeClass('opacityOne');
+	setTimeout(function(){
+		openedProject.addClass('displayNone');
+		$('.gallery').addClass('displayNone');
+	}, 600);
+
+	$('.lightbox_gallery').animate({
+		scrollLeft: 0
+	}, 0);
+
+	$('.project_line > .info > .title').removeClass('colorPink');
+	$('#lightbox_'+thisProjectNumber).removeClass('displayNone');
+
+	setTimeout(function(){
+		$('#lightbox_'+thisProjectNumber).addClass('opacityOne');
+	}, 10);
+
+	//get to precise image
+	if(thisImageAlt){
+		var desiredImage = $('#lightbox_'+thisProjectNumber+
+			' > .lightbox_gallery > figure > img[alt="'+thisImageAlt+'"');
+
+		$(".lightbox > .lightbox_gallery > figure").css("scroll-snap-align", "none");
+		$(".lightbox > .lightbox_gallery").css("overflow", "hidden");
+
+		$(desiredImage).parent().parent().animate({
+			scrollLeft: ($(desiredImage).parent().width() * (thisImageNumber))
+		}, 400);
+
+		setTimeout(function() {
+			$(".lightbox > .lightbox_gallery > figure").css("scroll-snap-align", "start");
+			$(".lightbox > .lightbox_gallery").css("overflow", "scroll");
+		}, 400);
+	}
+
+	$('#project_'+thisProjectNumber+' > .info > .title').addClass('colorPink');
+}
+
+function closeImage(image) {
+	var thisProjectNumber = image.parentElement.id.replace('lightbox_','');
+
+	$('.gallery').removeClass('displayNone');
+	$('#lightbox_'+thisProjectNumber).removeClass('opacityOne');
+
+	setTimeout(function(){
+		$('#lightbox_'+thisProjectNumber).addClass('displayNone');
+	}, 600);
+
+	$('#project_'+thisProjectNumber+' > .info > .title').removeClass('colorPink');
+}

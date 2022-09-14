@@ -1,0 +1,349 @@
+/*OVERALL*/
+@font-face{
+  font-family: Valentine;
+  src: url(fonts/Valentine-Regular.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+	--fontSize: 10px;
+	--pink: rgb(240,157,250);
+	--grey: rgb(235,235,235);
+}
+
+* {
+  /*unselectable*/
+  -webkit-user-select: none;  
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  /*hide scrollbar*/
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+	font-family: Helvetica;
+	color: black;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.header {
+	width: calc(100% - 40px);
+	margin: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: flex;
+	justify-content: space-between;
+	height: 140px;	
+}
+
+.header a {
+	color: var(--pink);
+	cursor: pointer;
+}
+.header a:hover {
+	text-decoration: underline;
+}
+.header a:not(.moreButton):active {
+	color: black;
+}
+.header > .left {
+	position: relative;
+	z-index: 2;
+}
+.header > .right {
+	width: 200px;
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header a.moreButton {
+	transition: color .6s;
+}
+
+.header a.colorWhite {
+	color: white;
+}
+
+/*ABOUT*/
+.about_page {
+	width: calc(44% - 40px);
+	height: calc(100vh - 80px);
+	position: absolute;
+	top: 0;
+	background-color: var(--pink);
+	padding: 20px;
+	padding-top: 60px;
+	z-index: 1;
+	transform: translate(-100%);
+	transition: transform .6s;
+}
+.translateOnView {
+	transform: translate(0%)!important;
+}
+.halfOpacity {
+	opacity: .5;
+}
+
+/*PROJECTS*/
+.projects_main {
+	transition: opacity .6s;
+	height: calc(100vh - 280px);
+	margin-bottom: 120px;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+	border-top: 1px solid var(--grey);
+	border-bottom: 1px solid var(--grey);
+}
+.projects_main > .project_line {
+	height: 60px;
+	width: 100%;
+	display: flex;
+	border-bottom: 1px solid var(--grey);
+	scroll-snap-align: start;
+	cursor: pointer;
+}
+/*.projects_main .project_line:first-child {
+}*/
+
+.colorPink {
+	color: var(--pink)!important;
+}
+
+/*.projects_main > .project_line:before {
+	content: '';
+	width: 100%;
+	position: absolute;
+	border-top: 1px solid var(--grey);
+}*/
+
+.projects_main > .project_line > .info {
+	width: calc(44% - 20px);
+	margin-left: 20px;
+	display: flex;
+	position: relative;
+}
+.projects_main > .project_line > .info > div {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.projects_main > .project_line > .info > div.category {
+	left: 15%;
+}
+.projects_main > .project_line > .info > div.title {
+	left: 40%;
+	transition: color .6s;
+}
+
+.projects_main > .project_line > .gallery {
+	width: 56%;
+	display: flex;
+	overflow: scroll;
+}
+.projects_main > .project_line > .gallery > img {
+	cursor: pointer;
+	object-fit: cover;
+	width: 12%;
+}
+
+
+
+/*LIGHTBOX*/
+.displayNone {
+	display: none!important;
+}
+.opacityOne {
+	opacity: 1!important;
+}
+.closeButton {
+	position: absolute;
+	cursor: pointer;
+	width: auto;
+	height: auto;
+	background-color: var(--pink);
+	padding: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin: 10px;
+	z-index: 2;
+}
+.closeButton:hover {
+	opacity: .6;
+}
+.lightbox {
+	position: absolute;
+	width: 56%;
+	top: 0;
+	right: 0;
+	margin-top: 160px;
+	height: calc(100vh - 160px);
+	background-color: var(--grey);
+	border-top: 1px solid var(--grey);
+	opacity: 0;
+	transition: .6s;
+}
+.lightbox > .lightbox_gallery {
+	height: calc(100% - 120px);
+	overflow-x: scroll;
+	display: inline-flex;
+	flex-wrap: unset;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x mandatory;
+	scrollbar-width: none;
+	gap: 0;
+}
+.lightbox > .lightbox_gallery > figure {
+	margin: 0;
+	min-width: 100%;
+	height: auto;
+	display: inline-block;
+	overflow: hidden;
+	scroll-snap-align: start;
+	position: relative;
+}
+.lightbox > .lightbox_gallery > figure > img {
+	object-fit: cover;
+	/*object-fit: contain;*/
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 16/9;
+}
+
+.lightbox > .lightbox_gallery > figure > .imageArrowLeft {
+	content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Livello_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 250 250' style='enable-background:new 0 0 250 250;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23F09DFA;%7D .st1%7Bdisplay:none;fill:%23F09DFA;%7D%0A%3C/style%3E%3Cpolygon class='st0' points='198.4,215 107,125.4 199.1,35.1 165.9,1.9 42.3,125.7 165.2,248.2 '/%3E%3Cpolygon class='st1' points='43,215 134.4,125.4 42.3,35.1 75.4,1.9 199.1,125.7 76.2,248.2 '/%3E%3C/svg%3E%0A");
+  position: absolute;
+  width: 30px;
+  top: 0;
+  left: 0;
+  padding-left: 12px;
+  padding-right: 25%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+  opacity: 0;
+  transition: .6s opacity;
+}
+.lightbox > .lightbox_gallery > figure > .imageArrowRight {
+	content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Livello_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 250 250' style='enable-background:new 0 0 250 250;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bdisplay:none;fill:%23F09DFA;%7D .st1%7Bfill:%23F09DFA;%7D%0A%3C/style%3E%3Cpolygon class='st0' points='198.4,215 107,125.4 199.1,35.1 165.9,1.9 42.3,125.7 165.2,248.2 '/%3E%3Cpolygon class='st1' points='43,215 134.4,125.4 42.3,35.1 75.4,1.9 199.1,125.7 76.2,248.2 '/%3E%3C/svg%3E%0A");
+  position: absolute;
+  width: 30px;
+  top: 0;
+  right: 0;
+  padding-left: 25%;
+  padding-right: 12px;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+  opacity: 0;
+  transition: .6s opacity;
+}
+.lightbox > .lightbox_gallery > figure > .imageArrowLeft:hover,
+.lightbox > .lightbox_gallery > figure > .imageArrowRight:hover {
+  opacity: 1;
+}
+
+.lightbox > .description {
+	margin: 20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	overflow: scroll;
+	height: 80px;
+}
+
+footer {
+	display: none;
+}
+
+/*############*/
+/*QUERY MOBILE*/
+/*############*/
+@media screen and (max-width: 768px) {
+	/*HEADER*/
+	.header > .right {
+		display: none;
+	}
+
+	/*ABOUT*/
+	.about_page {
+		width: calc(100% - 40px);
+		height: auto;
+		transform: translate(0,-100%);
+		padding-top: 58px;
+	}
+
+	/*PROJECTS*/
+	.projects_main {
+		height: calc(100vh - 220px);
+		border-bottom: 0;
+	}
+	.projects_main > .project_line {
+		flex-direction: column;
+		background-color: white;
+		z-index: 2;
+	}
+	.projects_main > .project_line > .info {
+		width: auto;
+		height: 100%;
+	}
+	.projects_main > .project_line > .info > div.category {
+		display: none;
+	}
+	.projects_main > .project_line > .info > div.title {
+		left: 20%;
+	}
+	.projects_main > .project_line > .gallery {
+		/*display: none;*/
+		height: 0;
+	}
+
+	/*LIGHTBOX*/
+	.lightbox {
+		position: relative;
+		width: 100%;
+		margin-top: 0px;
+		border-top: 0px solid var(--grey);
+		height: 0%;
+		opacity: 1!important;
+		overflow: hidden;
+	}
+	.lightbox > .description {
+		margin-bottom: 15px;
+		height: 90px;
+	}
+
+	.opacityOne {
+		height: 90vw;
+	}
+
+	/*FOOTER*/
+	footer {
+		display: flex;
+		position: absolute;
+		bottom: 0;
+		padding: 20px;
+		width: calc(100% - 40px);
+		justify-content: space-between;
+		background-color: white;
+	}
+	footer a {
+		color: var(--pink);
+		cursor: pointer;
+	}
+	footer a:hover {
+		text-decoration: underline;
+	}
+	footer a:active {
+		color: black;
+	}
+}
