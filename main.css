@@ -239,7 +239,7 @@ body{
 	transition: .6s;
 }
 .lightbox > .lightbox_gallery {
-	height: 0px;
+	height: calc(100% - 120px);
 	overflow-x: scroll;
 	display: inline-flex;
 	flex-wrap: unset;
@@ -247,10 +247,6 @@ body{
 	scroll-snap-type: x mandatory;
 	scrollbar-width: none;
 	gap: 0;
-	transition: .6s height;
-}
-.lightbox.opacityOne > .lightbox_gallery {
-	height: calc(100vw - 120px);
 }
 .lightbox > .lightbox_gallery > figure {
 	margin: 0;
@@ -385,13 +381,20 @@ footer {
 		overflow: hidden;
 	}
 	.lightbox > .description {
-		margin-bottom: -250px;
+		margin-bottom: -250;
 		padding-bottom: 15px;
 		height: auto;
 		transition: .6s margin-bottom;
 	}
 	.lightbox.opacityOne > .description {
 		margin-bottom: 0;
+	}
+	.lightbox > .lightbox_gallery {
+		height: 0px;
+		transition: .6s height;
+	}
+	.lightbox.opacityOne > .lightbox_gallery {
+		height: calc(100vw - 120px);
 	}
 
 	.opacityOne {
