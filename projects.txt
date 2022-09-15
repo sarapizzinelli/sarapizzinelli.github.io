@@ -11,7 +11,7 @@
 <title>SANTARCANGELO 50 FESTIVAL</>
 <year>2021</>
 <category>art catalogue</>
-<description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
+<description><B>TEST per il grassetto</B>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
 <images>img4.jpg,img3.jpg,img1.jpg,img2.jpg</>
 
 <title>NEMICA FIGURA</>
