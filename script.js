@@ -185,7 +185,7 @@ function openImage(image) {
 			$('#lightbox_'+thisProjectNumber).removeClass('opacityOne');
 			setTimeout(function(){
 				$('#lightbox_'+thisProjectNumber).addClass('displayNone');
-			}, 600);
+			}, 300);
 			$('#project_'+thisProjectNumber+' > .info > *').removeClass('colorPink');
 			return
 		}
