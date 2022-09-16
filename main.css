@@ -110,6 +110,20 @@ body{
 	font-size: var(--fontSizeM);
 	line-height: 130%;
 }
+.about_page > .about_credits {
+	font-size: 12px;
+	color: rgb(66,66,66);
+	margin-top: calc(60px - 2.5rem);
+	position: absolute;
+	bottom: 20px;
+}
+.about_page > .about_credits a {
+	font-size: 12px;
+	color: rgb(66,66,66);
+}
+.about_page > .about_credits a:hover {
+	color: white;
+}
 .translateOnView {
 	transform: translate(0%)!important;
 }
@@ -345,6 +359,9 @@ footer {
 		height: auto;
 		transform: translate(0,-100%);
 		padding-top: 58px;
+	}
+	.about_page > .about_credits {
+		position: relative;
 	}
 
 	/*PROJECTS*/
