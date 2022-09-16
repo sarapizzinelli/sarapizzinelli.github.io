@@ -11,14 +11,14 @@
 <title>SANTARCANGELO 50 FESTIVAL</>
 <year>2021</>
 <category>art catalogue</>
-<description><B>TEST per il grassetto</B>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
+<description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
 <images>img4.jpg,img3.jpg,img1.jpg,img2.jpg</>
 
 <title>NEMICA FIGURA</>
 <year>2021</>
 <category>identity</>
 <description><I>Urbino e le Città del Libro</I> is a literary festival involving the excellence of the publishing field in the city of Urbino and its territory. The event offers presentations, readings, meetings with authors and workshops every year.</>
-<images>nemica_figura_brochure_1.jpg,nemica_figura_brochure_4.jpg,nemica_figura_brochure_5.jpg,nemica_figura_segnalibri_1.jpg,UCLpost_1.jpg,UCLpost_2.jpg,UCLpost_3.jpg,UCLpost_4.jpg</>
+<images>nemica_figura_brochure_1.jpg,nemica_figura_brochure_4.jpg,nemica_figura_brochure_5.jpg,nemica_figura_segnalibri_1.jpg,UCLpost_1.jpg,UCLpost_2.jpg,UCLpost_3.jpg,UCLpost_4.jpg,nemica_figura_brochure_1.jpg</>
 
 <title>DOMANDE A DISTANZA</>
 <year>2021</>

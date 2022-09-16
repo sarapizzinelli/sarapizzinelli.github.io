@@ -38,48 +38,41 @@ jQuery.get('projects.txt', function(data) {
             "</div>" ).appendTo($('.projects_main'));
 
             for (j=0; j<images.length; j++){
-    			$( "<img loading='lazy' alt='project_"+i+"_"+j+"' onclick='openImage(this)' src='images/"+
-    				images[j]+"'>" ).appendTo($('#gallery_'+i));
-    				if (i == 1){
-    					//console.log(j, $('img[alt=project_'+i+'_'+j+']').width());
-    					//console.log($('img[alt=project_'+i+'_'+j+']').width()*(j+1));
-    					//console.log('total', $('#gallery_'+i).width());
+            	var usedImages = $('#lightbox_'+i+' > .lightbox_gallery img[src="images/'+images[j]+'"');
+    			//$( "<img loading='lazy' alt='project_"+i+"_"+j+"' onclick='openImage(this)' src='images/"+
+    				//images[j]+"'>" ).appendTo($('#gallery_'+i));
 
-    					/*if($('img[alt=project_'+i+'_'+j+']').width()*(j+1) < $('#gallery_'+i).width()){
-	    					$('img[alt=project_'+i+'_'+j+']').clone().appendTo($('#gallery_'+i));
-	    				}*/
-    				}
-    				
-    			$( "<figure>"+
-    				"<div class='imageArrowLeft'></div>"+
-    				"<img loading='lazy' alt='project_"+i+"_"+j+"' class='insideImg' src='images/"+images[j]+"'>"+
-    				"<div class='imageArrowRight'></div>"+
-    				"</figure>" ).appendTo($('#lightbox_'+i+' > .lightbox_gallery'));
+    			if (usedImages.length === 0) {
+    				$( "<img loading='lazy' alt='"+images[j].split('.')[0]+"_"+j+"' onclick='openImage(this)' src='images/"+
+    				images[j]+"'>" ).appendTo($('#gallery_'+i));
+
+    				$( "<figure>"+
+	    				"<div class='imageArrowLeft'></div>"+
+	    				"<img loading='lazy' alt='"+images[j].split('.')[0]+"_"+j+"' class='insideImg' src='images/"+images[j]+"'>"+
+	    				"<div class='imageArrowRight'></div>"+
+	    				"</figure>" ).appendTo($('#lightbox_'+i+' > .lightbox_gallery'));
+    			} else {
+    				$( "<img loading='lazy' alt='"+usedImages[0].alt+"' onclick='openImage(this)' src='images/"+
+    				images[j]+"'>" ).appendTo($('#gallery_'+i));
+    			}
     		}
     	}
 
     	var rows = $('.project_line');
 
-    	for (i=0; i<rows.length; i++){
+    	//CLONE IMAGES IN GALLERIES
+    	/*for (i=0; i<rows.length; i++){
     		var imagesInThisRow = rows[i].querySelectorAll('img');
-    		//console.log($(imagesInThisRow[imagesInThisRow.length-1]).width()*(imagesInThisRow.length));
-    		
-    		/*if($(imagesInThisRow[imagesInThisRow.length-1]).width()*(imagesInThisRow.length) < $(rows[i].getElementsByClassName('gallery')[0]).width()){
-		    	console.log('ok');
-		    	$(imagesInThisRow).clone().appendTo($('#gallery_'+i));
-		    }*/
 
 		    while(true){
 		    	var actualImagesInThisRow = rows[i].querySelectorAll('img');
 		    	$(imagesInThisRow).clone().appendTo($('#gallery_'+i));
-		    	//console.log($(imagesInThisRow[imagesInThisRow.length-1]).width()*(imagesInThisRow.length));
-		    	//console.log($(rows[i].getElementsByClassName('gallery')[0]).width());
 		    	
 		    	if($(imagesInThisRow[imagesInThisRow.length-1]).width()*(actualImagesInThisRow.length) > $(rows[i].getElementsByClassName('gallery')[0]).width()){
 		    		break;
 		    	}
 		    }
-    	}
+    	}*/
 
     	/*ARROWS*/
 		$(".imageArrowLeft").on('click', function(event) {
@@ -174,7 +167,7 @@ function openImage(image) {
 	if(image.tagName == 'IMG'){
 		var thisProjectNumber = image.parentElement.id.replace('gallery_','');
 		var thisImageAlt = image.alt;
-		var thisImageNumber = thisImageAlt.replace('project_','').replace(thisProjectNumber, '').replace('_','');
+		var thisImageNumber = thisImageAlt.split('_').at(-1);
 		if(!$('#lightbox_'+thisProjectNumber).hasClass('displayNone')){
 			return
 		}
@@ -213,8 +206,13 @@ function openImage(image) {
 
 	//get to precise image
 	if(thisImageAlt){
+
 		var desiredImage = $('#lightbox_'+thisProjectNumber+
 			' > .lightbox_gallery > figure > img[alt="'+thisImageAlt+'"');
+
+		console.log(thisImageAlt);
+		console.log(thisImageNumber);
+		console.log(desiredImage);
 
 		$(".lightbox > .lightbox_gallery > figure").css("scroll-snap-align", "none");
 		$(".lightbox > .lightbox_gallery").css("overflow", "hidden");
