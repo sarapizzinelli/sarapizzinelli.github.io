@@ -98,7 +98,7 @@ body{
 /*ABOUT*/
 .about_page {
 	width: calc(44% - 40px);
-	height: calc(100vh - 80px);
+	height: 100%;
 	position: absolute;
 	top: 0;
 	background-color: var(--pink);
@@ -243,7 +243,7 @@ body{
 }
 .lightbox {
 	position: absolute;
-	width: 56%;
+	width: calc(56% + 1px);
 	top: 0;
 	right: 0;
 	margin-top: 160px;
@@ -281,6 +281,7 @@ body{
 	width: 100%;
 	height: 100%;
 	aspect-ratio: 16/9;
+	display: block; /*???*/
 }
 
 .lightbox > .lightbox_gallery > figure > .imageArrowLeft {
@@ -321,7 +322,7 @@ body{
 	margin-top: 10px;
 	margin-bottom: 30px;
 	overflow: scroll;
-	height: 80px;
+	height: auto;
 }
 
 footer {
