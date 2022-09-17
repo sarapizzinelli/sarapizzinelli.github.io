@@ -1,5 +1,5 @@
 <generic_info>
-<about>I’m a graphic designer, interested in the cultural and artistic field. My practice is focused on visual communication, book design, visual identity and illustration. I've worked for several artists and festivals, ranging from performance arts, photography and literature. Go and see my main works :)<about>
+<about>I’m a graphic designer, interested in the cultural and artistic field.<br>My practice is focused on visual communication, book design, visual identity and illustration. I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br>Go and see my main works :)<about>
 
 <PROJECTS>
 <title>RILIEVO</>
