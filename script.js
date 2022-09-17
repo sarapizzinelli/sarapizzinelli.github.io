@@ -16,7 +16,7 @@ jQuery.get('projects.txt', function(data) {
 	//console.log(projCategories);
 
     $(document).ready(function() {
-    	$('.about_text')[0].innerText = aboutText;
+    	$('.about_text')[0].innerHTML = aboutText;
     	
     	for (i=0; i<projTitles.length; i++){
     		var images = projImages[i].replaceAll('<images>','').replaceAll('</>','').split(',');
