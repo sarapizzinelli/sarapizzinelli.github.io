@@ -98,7 +98,7 @@ body{
 /*ABOUT*/
 .about_page {
 	width: calc(44% - 40px);
-	height: 100%;
+	height: calc(100vh - 80px);
 	position: absolute;
 	top: 0;
 	background-color: var(--pink);
@@ -109,6 +109,9 @@ body{
 	transition: transform .6s;
 	font-size: var(--fontSizeM);
 	line-height: 130%;
+}
+.about_page > .about_credits {
+	font-size: var(--fontSizeM);
 }
 .about_page > .about_credits {
 	font-size: 12px;
