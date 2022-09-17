@@ -81,7 +81,7 @@ body{
 	z-index: 5;
 }
 .header > .right {
-	width: 260px;
+	width: 330px;
 	height: 1rem;
 	display: flex;
 	justify-content: space-between;
@@ -445,9 +445,9 @@ footer {
 		font-size: var(--fontSizeM);
 		letter-spacing: .5px;
 	}
-	footer a:last-child {
+	/*footer a:last-child {
 		margin-right: 8%;
-	}
+	}*/
 	footer a:hover {
 		text-decoration: underline;
 	}
