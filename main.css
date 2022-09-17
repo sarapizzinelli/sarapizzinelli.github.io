@@ -110,7 +110,7 @@ body{
 	font-size: var(--fontSizeM);
 	line-height: 130%;
 }
-.about_page > .about_credits {
+.about_page > .about_text {
 	font-size: var(--fontSizeM);
 }
 .about_page > .about_credits {
