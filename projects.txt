@@ -6,7 +6,7 @@
 <year>2022</>
 <category>identity</>
 <description><I>Rilievo - Osservazioni intorno alla Compagnia Mòra</I> is a visual narrative about the dance company Mòra, founded by Claudia Castellucci in 2019 and still active today. A relief of their world, a story made up of dialogues, critical texts, drawings and readings to recreate a picture of their creative action.</>
-<images>scintille01.jpg,scintille06.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg,scintille01.jpg,scintille06.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg</>
+<images>scintille01.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg,scintille01.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg</>
 
 <title>RILIEVO</>
 <year>2022</>
