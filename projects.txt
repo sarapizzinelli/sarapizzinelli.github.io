@@ -18,7 +18,7 @@
 <year>2021</>
 <category>art catalogue</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>img4.jpg,img3.jpg,img1.jpg,img2.jpg</>
+<images>santa01.jpg,santa02.jpg,santa03.jpg,santa04.jpg,santa05.jpg,santa06.jpg,santa07.jpg,santa08.jpg,santa09.jpg</>
 
 <title>NEMICA FIGURA</>
 <year>2021</>
