@@ -36,34 +36,34 @@
 <year>2020</>
 <category>novel</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>img2.jpg,img4.jpg,img1.jpg</>
+<images>rilievo01.jpg</>
 
 <title>BUONGIORNO AL SECCHIO</>
 <year>2020</>
 <category>catalogue</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>img1.jpg,img2.jpg</>
+<images>rilievo01.jpg</>
 
 <title>MEET ME IN THE BATHROOM</>
 <year>2020</>
 <category>book</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>img1.jpg</>
+<images>rilievo01.jpg</>
 
 <title>IPEROMANZO</>
 <year>2020</>
 <category>novel</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>img1.jpg</>
+<images>rilievo01.jpg</>
 
 <title>MOLTO</>
 <year>2019</>
 <category>magazine</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>img1.jpg,img2.jpg,img3.jpg</>
+<images>rilievo01.jpg</>
 
 <title>WAYS OF WORLDMAKING</>
 <year>2019</>
 <category>identity</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>img4.jpg,img3.jpg,img1.jpg,img2.jpg</>
+<images>rilievo01.jpg</>
