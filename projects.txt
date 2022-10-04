@@ -24,7 +24,7 @@
 <year>2021</>
 <category>identity</>
 <description><I>Urbino e le Città del Libro</I> is a literary festival involving the excellence of the publishing field in the city of Urbino and its territory. The event offers presentations, readings, meetings with authors and workshops every year.</>
-<images>nemica_figura_brochure_1.jpg,nemica_figura_brochure_4.jpg,nemica_figura_brochure_5.jpg,nemica_figura_segnalibri_1.jpg,UCLpost_1.jpg,UCLpost_2.jpg,UCLpost_3.jpg,UCLpost_4.jpg,nemica_figura_brochure_1.jpg</>
+<images>nemica01.jpg,nemica02.jpg,nemica03.jpg,nemica04.jpg,nemica05.jpg,nemica06.jpg,nemica07.jpg,nemica01.jpg,nemica02.jpg,nemica03.jpg,nemica04.jpg,nemica05.jpg,nemica06.jpg,nemica07.jpg</>
 
 <title>DOMANDE A DISTANZA</>
 <year>2021</>
