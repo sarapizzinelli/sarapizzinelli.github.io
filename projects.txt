@@ -54,7 +54,7 @@
 <year>2020</>
 <category>book</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>rilievo01.jpg</>
+<images>meet01.jpg,meet02.jpg,meet03.jpg,meet04.jpg,meet05.jpg,meet06.jpg,meet07.jpg,meet08.jpg,meet09.jpg</>
 
 <title>IPEROMANZO</>
 <year>2020</>
