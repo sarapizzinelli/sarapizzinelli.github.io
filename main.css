@@ -115,7 +115,7 @@ body{
 }
 .about_page > .about_credits {
 	font-size: 12px;
-	color: rgb(66,66,66);
+	color: rgb(0,0,0);
 	margin-top: calc(60px - 2.5rem);
 	position: absolute;
 	bottom: 20px;
