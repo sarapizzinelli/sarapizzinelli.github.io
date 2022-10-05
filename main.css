@@ -267,7 +267,7 @@ body{
 	gap: 0;
 
 	height: auto;
-	aspect-ratio: 16/9;
+	aspect-ratio: 3/2;
 }
 .lightbox > .lightbox_gallery > figure {
 	margin: 0;
@@ -283,7 +283,6 @@ body{
 	object-fit: contain;
 	width: 100%;
 	height: 100%;
-	aspect-ratio: 16/9;
 	display: block; /*???*/
 }
 
