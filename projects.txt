@@ -60,7 +60,7 @@
 <year>2019</>
 <category>magazine</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>rilievo01.jpg</>
+<images>molto01.jpg,molto02.jpg,molto03.jpg,molto04.jpg,molto05.jpg,molto06.jpg,molto07.jpg,molto08.jpg,molto09.jpg,molto10.jpg</>
 
 <title>WAYS OF WORLDMAKING</>
 <year>2019</>
