@@ -38,15 +38,15 @@
 <description><I>Domande a distanza 1971—2021</I> is a research on museum didactics and an opportunity to investigate the crisis of cultural venues. The past, present and future of this discipline are analysed through the voices of educators, curators, museologists, philosophers, art historians and architects, to portray the several shapes of cultural and didactic experience in this specific time.</>
 <images>floppy01.jpg,floppy02.jpg,floppy03.jpg,floppy04.jpg,floppy05.jpg,floppy06.jpg,floppy07.jpg,floppy08.jpg,floppy09.jpg</>
 
-<title>MAFARKA LE FUTURISTE</>
-<year>2020</>
-<category>novel</>
-<description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>rilievo01.jpg</>
-
 <title>BUONGIORNO AL SECCHIO</>
 <year>2020</>
 <category>catalogue</>
+<description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
+<images>rilievo01.jpg</>
+
+<title>MAFARKA LE FUTURISTE</>
+<year>2020</>
+<category>novel</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
 <images>rilievo01.jpg</>
 
