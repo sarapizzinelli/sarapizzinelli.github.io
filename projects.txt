@@ -42,7 +42,7 @@
 <year>2020</>
 <category>catalogue</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>rilievo01.jpg</>
+<images>buon01.jpg,buon02.jpg,buon03.jpg,buon04.jpg,buon05.jpg,buon06.jpg,buon07.jpg,buon08.jpg,buon09.jpg</>
 
 <title>MAFARKA LE FUTURISTE</>
 <year>2020</>
