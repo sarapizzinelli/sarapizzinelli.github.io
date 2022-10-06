@@ -1,29 +1,29 @@
 <generic_info>
-<about>I’m a graphic designer, interested in the cultural and artistic field.<br>My practice is focused on visual communication, book design, visual identity and illustration. I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br>Go and see my main works :)<about>
+<about>I’m a graphic designer, interested in the cultural and artistic field.<br>My practice is focused on visual communication, book design, visual identity and illustration. I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br>Go and see my main works :)<br><br><about>
 
 <PROJECTS>
 <title>SCINTILLE</>
 <year>2022</>
 <category>identity</>
-<description><I>Rilievo - Osservazioni intorno alla Compagnia Mòra</I> is a visual narrative about the dance company Mòra, founded by Claudia Castellucci in 2019 and still active today. A relief of their world, a story made up of dialogues, critical texts, drawings and readings to recreate a picture of their creative action.</>
+<description><I>Visual identity and prints for Scintille, a summer festival of performing arts held in Verbania (IT). </>
 <images>scintille01.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg,scintille01.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg</>
 
 <title>RILIEVO</>
 <year>2022</>
 <category>art catalogue</>
-<description><I>Rilievo - Osservazioni intorno alla Compagnia Mòra</I> is a visual narrative about the dance company Mòra, founded by Claudia Castellucci in 2019 and still active today. A relief of their world, a story made up of dialogues, critical texts, drawings and readings, a picture of their creative action.</>
+<description><I>Rilievo - Osservazioni intorno alla Compagnia Mòra</I> is a work I made with Claudia Castellucci. The book is a visual narrative about the dance company Mòra, a story made up of dialogues, critical texts, drawings and readings, a picture of their creative action.</>
 <images>rilievo01.jpg,rilievo02.jpg,rilievo03.jpg,rilievo04.jpg,rilievo05.jpg,rilievo06.jpg,rilievo07.jpg,rilievo08.jpg,rilievo09.jpg</>
 
 <title>SANTARCANGELO 50 FESTIVAL</>
 <year>2021</>
 <category>art catalogue</>
-<description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
+<description>A catalog for the 50th edition of <I>Santarcangelo dei Teatri festival</I>. It is a historical storytelling, the sharing of a living archive. The book was published by Corraini Editore.</>
 <images>santa01.jpg,santa02.jpg,santa03.jpg,santa04.jpg,santa05.jpg,santa06.jpg,santa07.jpg,santa08.jpg,santa09.jpg</>
 
 <title>NEMICA FIGURA</>
 <year>2021</>
 <category>identity</>
-<description><I>Urbino e le Città del Libro</I> is a literary festival involving the excellence of the publishing field in the city of Urbino and its territory. The event offers presentations, readings, meetings with authors and workshops every year.</>
+<description>Visual identity for the 7th edition of <I>Urbino e le Città del Libro</I>, a literary festival involving the excellence of the publishing field. The event offers presentations, readings, meetings with authors and workshops every year.</>
 <images>nemica01.jpg,nemica02.jpg,nemica03.jpg,nemica04.jpg,nemica05.jpg,nemica06.jpg,nemica07.jpg,nemica01.jpg,nemica02.jpg,nemica03.jpg,nemica04.jpg,nemica05.jpg,nemica06.jpg,nemica07.jpg</>
 
 <title>DOMANDE A DISTANZA</>
@@ -35,19 +35,19 @@
 <title>FLOPPY DISK</>
 <year>2021</>
 <category>research</>
-<description><I>Domande a distanza 1971—2021</I> is a research on museum didactics and an opportunity to investigate the crisis of cultural venues. The past, present and future of this discipline are analysed through the voices of educators, curators, museologists, philosophers, art historians and architects, to portray the several shapes of cultural and didactic experience in this specific time.</>
+<description>This research is a historical analysis of archival media, focusing on the importance of the floppy disk, trying to explain how it became the universal symbol of saving.</>
 <images>floppy01.jpg,floppy02.jpg,floppy03.jpg,floppy04.jpg,floppy05.jpg,floppy06.jpg,floppy07.jpg,floppy08.jpg,floppy09.jpg</>
 
 <title>BUONGIORNO AL SECCHIO</>
 <year>2020</>
 <category>catalogue</>
-<description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
+<description>Visual research on the work of Michele Provinciali. As a graphic designer he showed objects from a personal and profound perspective, like in <I>Qualità</I> and <I>Imago</I>, two house organs he curated for Kartell and Bassoli Fotoincisioni.</>
 <images>buon01.jpg,buon02.jpg,buon03.jpg,buon04.jpg,buon05.jpg,buon06.jpg,buon07.jpg,buon08.jpg,buon09.jpg</>
 
 <title>MAFARKA LE FUTURISTE</>
 <year>2020</>
 <category>novel</>
-<description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
+<description>This book is a typographical representation of Marinetti's original novel <I>Mafarka le Futuriste</I>. It is a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
 <images>mafarka01.jpg,mafarka02.jpg,mafarka03.jpg,mafarka04.jpg,mafarka05.jpg,mafarka01.jpg,mafarka02.jpg,mafarka03.jpg,mafarka04.jpg,mafarka05.jpg</>
 
 <title>MEET ME IN THE BATHROOM</>
