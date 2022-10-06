@@ -48,7 +48,7 @@
 <year>2020</>
 <category>novel</>
 <description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
-<images>rilievo01.jpg</>
+<images>mafarka01.jpg,mafarka02.jpg,mafarka03.jpg,mafarka04.jpg,mafarka05.jpg,mafarka01.jpg,mafarka02.jpg,mafarka03.jpg,mafarka04.jpg,mafarka05.jpg</>
 
 <title>MEET ME IN THE BATHROOM</>
 <year>2020</>
