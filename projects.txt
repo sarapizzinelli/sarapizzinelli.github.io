@@ -29,7 +29,7 @@
 <title>DOMANDE A DISTANZA</>
 <year>2021</>
 <category>research</>
-<description><I>Domande a distanza 1971—2021</I> is a research on museum didactics and an opportunity to investigate the crisis of cultural venues. The past, present and future of this discipline are analysed through the voices of educators, curators, museologists, philosophers, art historians and architects, to portray the several shapes of cultural and didactic experience in this specific time.</>
+<description><I>Domande a distanza 1971—2021</I> is a research on museum didactics and an opportunity to investigate the crisis of cultural venues. The past, present and future of this discipline are analysed through the voices of educators, curators, museologists, philosophers, art historians and architects.</>
 <images>domande01.jpg,domande02.jpg,domande03.jpg,domande04.jpg,domande05.jpg,domande06.jpg,domande07.jpg,domande08.jpg,domande09.jpg</>
 
 <title>FLOPPY DISK</>
