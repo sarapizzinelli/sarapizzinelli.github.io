@@ -53,13 +53,13 @@
 <title>MEET ME IN THE BATHROOM</>
 <year>2020</>
 <category>book</>
-<description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
+<description><I>MEET ME IN THE BATHROOM</I> is a research that explores the intersections between self-publishing and performance, made by Alessia Prati and Matias Julian Nativo as their final project at IUAV, Venice.</>
 <images>meet01.jpg,meet02.jpg,meet03.jpg,meet04.jpg,meet05.jpg,meet06.jpg,meet07.jpg,meet08.jpg,meet09.jpg</>
 
 <title>IPEROMANZO</>
 <year>2020</>
 <category>novel</>
-<description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
+<description><I>IPEROMANZO</I> is a novel made for Santarcangelo dei Teatri’s community. The people were asked to write thoughts and give images from their world, then a code created a text merging all those materials, revealing a sort of collective stream of consciousness.</>
 <images>iper01.jpg,iper02.jpg,iper03.jpg,iper04.jpg,iper05.jpg,iper06.jpg,iper07.jpg,iper08.jpg,iper01.jpg,iper02.jpg,iper03.jpg,iper04.jpg,iper05.jpg,iper06.jpg,iper07.jpg,iper08.jpg,iper01.jpg,iper02.jpg,iper03.jpg</>
 
 <title>MOLTO</>
