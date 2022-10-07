@@ -5,7 +5,7 @@
 <title>SCINTILLE</>
 <year>2022</>
 <category>identity</>
-<description><I>Visual identity and prints for Scintille, a summer festival of performing arts held in Verbania (IT). </>
+<description>Visual identity and prints for Scintille, a summer festival of performing arts held in Verbania (IT).</>
 <images>scintille01.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg,scintille01.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg</>
 
 <title>RILIEVO</>
