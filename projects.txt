@@ -71,5 +71,5 @@
 <title>WAYS OF WORLDMAKING</>
 <year>2019</>
 <category>identity</>
-<description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
+<description>Visual identity and art direction for the 10th edition of SI Fest OFF, independent festival of photography and visual arts. Supported by a young and enthusiastic team, I worked on the theme of this edition, <I>Ways of Worldmaking</I>, to create the imagery and the stories behind the printed matter.</>
 <images>ways01.jpg,ways02.jpg,ways03.jpg,ways04.jpg,ways05.jpg,ways06.jpg,ways07.gif,ways01.jpg,ways02.jpg,ways03.jpg,ways04.jpg,ways05.jpg,ways06.jpg,ways07.gif</>
