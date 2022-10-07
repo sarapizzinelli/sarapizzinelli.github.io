@@ -35,7 +35,7 @@
 <title>FLOPPY DISK</>
 <year>2021</>
 <category>research</>
-<description>This research is a historical analysis of archival media, focusing on the importance of the floppy disk, trying to explain how it became the universal symbol of saving.</>
+<description>This research is a historical analysis of archival media, focusing on the floppy disk as a archaeological object and on how it became the universal symbol for saving.</>
 <images>floppy01.jpg,floppy02.jpg,floppy03.jpg,floppy04.jpg,floppy05.jpg,floppy06.jpg,floppy07.jpg,floppy08.jpg,floppy09.jpg</>
 
 <title>BUONGIORNO AL SECCHIO</>
