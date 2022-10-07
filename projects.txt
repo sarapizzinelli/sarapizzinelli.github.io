@@ -65,7 +65,7 @@
 <title>MOLTO</>
 <year>2019</>
 <category>magazine</>
-<description>In the original novel Mafarka le Futuriste, the book as a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
+<description>MOLTO is a magazine about the world of periodical publishing. The project was presented in a physical space which was the venue for exhibitions, talks and performances, focused on the themes of the first issue.</>
 <images>molto01.jpg,molto02.jpg,molto03.jpg,molto04.jpg,molto05.jpg,molto06.jpg,molto07.jpg,molto08.jpg,molto09.jpg,molto10.jpg</>
 
 <title>WAYS OF WORLDMAKING</>
