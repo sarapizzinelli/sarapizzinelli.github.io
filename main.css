@@ -115,7 +115,7 @@ body{
 }
 .about_page > .about_credits {
 	font-size: 12px;
-	color: rgb(0,0,0);
+	color: rgb(66,66,66);
 	margin-top: calc(60px - 2.5rem);
 	position: absolute;
 	bottom: 20px;
@@ -164,7 +164,7 @@ body{
 	border-bottom: 1px solid var(--grey);
 }
 .projects_main > .project_line {
-	height: 60px;
+	height: auto; /*60px*/
 	width: 100%;
 	display: flex;
 	border-bottom: 1px solid var(--grey);
@@ -279,8 +279,8 @@ body{
 	position: relative;
 }
 .lightbox > .lightbox_gallery > figure > img {
-	/*object-fit: cover;*/
-	object-fit: contain;
+	object-fit: cover;
+	/*object-fit: contain;*/
 	width: 100%;
 	height: 100%;
 	display: block; /*???*/
@@ -375,6 +375,7 @@ footer {
 		margin-bottom: calc(1rem + 40px);
 	}
 	.projects_main > .project_line {
+		height: 60px;
 		flex-direction: column;
 		background-color: white;
 		z-index: 2;
