@@ -216,6 +216,7 @@ body{
 	overflow: scroll;
 }
 .projects_main > .project_line > .gallery > img {
+	background-color: var(--grey);
 	cursor: pointer;
 	object-fit: cover;
 	width: 12%;
