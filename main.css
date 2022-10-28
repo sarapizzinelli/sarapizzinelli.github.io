@@ -164,7 +164,8 @@ body{
 	border-bottom: 1px solid var(--grey);
 }
 .projects_main > .project_line {
-	height: auto; /*60px*/
+	height: 6vw;
+	max-height: 80px;
 	width: 100%;
 	display: flex;
 	border-bottom: 1px solid var(--grey);
@@ -455,3 +456,27 @@ footer {
 		color: black;
 	}
 }
+
+/*##################*/
+/*QUERY LARGE WINDOW*/
+/*##################*/
+@media screen and (min-width: 1600px) {
+	* {
+		font-size: 28px;
+	}
+	.header * {
+		font-size: 34px;
+	}
+	.about_page {
+		font-size: 34px;
+	}
+	.about_page > .about_text {
+		font-size: 34px;
+	}
+	footer a {
+		font-size: 34px;
+	}
+}
+
+
+
