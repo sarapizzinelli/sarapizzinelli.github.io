@@ -164,7 +164,7 @@ body{
 	border-bottom: 1px solid var(--grey);
 }
 .projects_main > .project_line {
-	height: 6vw;
+	height: 4.5vw;
 	max-height: 80px;
 	width: 100%;
 	display: flex;
