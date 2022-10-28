@@ -167,7 +167,7 @@ function openImage(image) {
 	if(image.tagName == 'IMG'){
 		var thisProjectNumber = image.parentElement.id.replace('gallery_','');
 		var thisImageAlt = image.alt;
-		var thisImageNumber = thisImageAlt.split('_').at(-1);
+		var thisImageNumber = (thisImageAlt + '').split('_').at(-1);
 		if(!$('#lightbox_'+thisProjectNumber).hasClass('displayNone')){
 			return
 		}
