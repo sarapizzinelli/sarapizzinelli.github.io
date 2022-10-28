@@ -476,6 +476,9 @@ footer {
 	footer a {
 		font-size: 34px;
 	}
+	.header > .right {
+		width: 560px;
+	}
 }
 
 
