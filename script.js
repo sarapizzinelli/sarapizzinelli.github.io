@@ -213,8 +213,8 @@ function openImage(image) {
 		console.log(thisImageAlt);
 		console.log(thisImageNumber);
 		console.log(desiredImage);
-		console.log(desiredImage);
 		console.log($(desiredImage).parent());
+		console.log($(desiredImage).parent().width());
 		console.log($(desiredImage).parent().width() * (thisImageNumber));
 
 		$(".lightbox > .lightbox_gallery > figure").css("scroll-snap-align", "none");
