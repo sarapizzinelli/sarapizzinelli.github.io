@@ -43,7 +43,7 @@ jQuery.get('projects.txt', function(data) {
     				//images[j]+"'>" ).appendTo($('#gallery_'+i));
 
     			if (usedImages.length === 0) {
-    				$( "<img loading='lazy' alt='"+images[j].split('.')[0]+"_"+j+"' onclick='openImage(this)' src='images/"+
+    				$( "<img loading='lazy' alt='"+images[j].split('.')[0]+"_"+j+"' onclick='openImage(this)' src='images_preview/"+
     				images[j]+"'>" ).appendTo($('#gallery_'+i));
 
     				$( "<figure>"+
@@ -52,7 +52,7 @@ jQuery.get('projects.txt', function(data) {
 	    				"<div class='imageArrowRight'></div>"+
 	    				"</figure>" ).appendTo($('#lightbox_'+i+' > .lightbox_gallery'));
     			} else {
-    				$( "<img loading='lazy' alt='"+usedImages[0].alt+"' onclick='openImage(this)' src='images/"+
+    				$( "<img loading='lazy' alt='"+usedImages[0].alt+"' onclick='openImage(this)' src='images_preview/"+
     				images[j]+"'>" ).appendTo($('#gallery_'+i));
     			}
     		}
