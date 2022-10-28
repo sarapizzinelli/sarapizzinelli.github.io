@@ -43,16 +43,16 @@ jQuery.get('projects.txt', function(data) {
     				//images[j]+"'>" ).appendTo($('#gallery_'+i));
 
     			if (usedImages.length === 0) {
-    				$( /*<img loading='lazy' */"<alt='"+images[j].split('.')[0]+"_"+j+"' onclick='openImage(this)' src='images_preview/"+
+    				$( /*<img loading='lazy' */"<img alt='"+images[j].split('.')[0]+"_"+j+"' onclick='openImage(this)' src='images_preview/"+
     				images[j]+"'>" ).appendTo($('#gallery_'+i));
 
     				$( "<figure>"+
 	    				"<div class='imageArrowLeft'></div>"+
-	    				/*<img loading='lazy' */"<alt='"+images[j].split('.')[0]+"_"+j+"' class='insideImg' src='images/"+images[j]+"'>"+
+	    				/*<img loading='lazy' */"<img alt='"+images[j].split('.')[0]+"_"+j+"' class='insideImg' src='images/"+images[j]+"'>"+
 	    				"<div class='imageArrowRight'></div>"+
 	    				"</figure>" ).appendTo($('#lightbox_'+i+' > .lightbox_gallery'));
     			} else {
-    				$( /*<img loading='lazy' */"<alt='"+usedImages[0].alt+"' onclick='openImage(this)' src='images_preview/"+
+    				$( /*<img loading='lazy' */"<img alt='"+usedImages[0].alt+"' onclick='openImage(this)' src='images_preview/"+
     				images[j]+"'>" ).appendTo($('#gallery_'+i));
     			}
     		}
