@@ -422,8 +422,9 @@ footer {
 		transition: .6s height;
 	}
 	.lightbox.opacityOne > .lightbox_gallery {
-		/*height: calc(100vw - 120px);*/
-		height: calc(calc(100vw / 16) * 9);
+		/*height: calc(100vw - 120px);
+		height: calc(calc(100vw / 16) * 9);*/
+		height: calc(calc(100vw / 3) * 2);
 	}
 
 	.opacityOne {
@@ -463,19 +464,19 @@ footer {
 /*##################*/
 @media screen and (min-width: 1600px) {
 	* {
-		font-size: 28px;
+		font-size: 21px;
 	}
 	.header * {
-		font-size: 34px;
+		font-size: 28px;
 	}
 	.about_page {
-		font-size: 34px;
+		font-size: 28px;
 	}
 	.about_page > .about_text {
-		font-size: 34px;
+		font-size: 28px;
 	}
 	footer a {
-		font-size: 34px;
+		font-size: 28px;
 	}
 	.header > .right {
 		width: 560px;
