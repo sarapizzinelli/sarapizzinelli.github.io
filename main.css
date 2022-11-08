@@ -257,6 +257,7 @@ body{
 	border-top: 1px solid var(--grey);
 	opacity: 0;
 	transition: .6s;
+	overflow: scroll; /*added*/
 }
 .lightbox > .lightbox_gallery {
 	/*height: calc(100% - 120px);*/
