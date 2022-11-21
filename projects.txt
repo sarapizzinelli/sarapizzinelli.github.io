@@ -11,25 +11,25 @@
 <title>RILIEVO</>
 <year>2022</>
 <category>art catalogue</>
-<description><I>Rilievo - Osservazioni intorno alla Compagnia Mòra</I> is a work I made with Claudia Castellucci. The book is a visual narrative about the dance company Mòra, a story made up of dialogues, critical texts, drawings and readings, a picture of their creative action.</>
+<description>'Rilievo - Osservazioni intorno alla Compagnia Mòra' is a work I made with Claudia Castellucci. The book is a visual narrative about the dance company Mòra, a story made up of dialogues, critical texts, drawings and readings, a picture of their creative action.</>
 <images>rilievo01.jpg,rilievo02.jpg,rilievo03.jpg,rilievo04.jpg,rilievo05.jpg,rilievo06.jpg,rilievo07.jpg,rilievo08.jpg,rilievo09.jpg</>
 
 <title>SANTARCANGELO 50 FESTIVAL</>
 <year>2021</>
 <category>art catalogue</>
-<description><I>Santarcangelo 50 Festival</I> is a catalog for the 50th edition of Santarcangelo dei Teatri festival. It is a historical narrative, the sharing of a living archive. The book was published by Corraini Editore.</>
+<description>'Santarcangelo 50 Festival' is a catalog for the 50th edition of Santarcangelo dei Teatri festival. It is a historical narration made through the archive materials from the festival, like posters, letters, photos and documents. The book was published by Corraini Editore.</>
 <images>santa01.jpg,santa02.jpg,santa03.jpg,santa04.jpg,santa05.jpg,santa06.jpg,santa07.jpg,santa08.jpg,santa09.jpg</>
 
 <title>NEMICA FIGURA</>
 <year>2021</>
 <category>identity</>
-<description>Visual identity for the 7th edition of <I>Urbino e le Città del Libro</I>, a literary festival involving the excellence of the publishing field. The event offers presentations, readings, meetings with authors and workshops every year.</>
+<description>Visual identity for the 7th edition of 'Urbino e le Città del Libro', a literary festival involving the excellence of the publishing field. The event offers presentations, readings, meetings with authors and workshops every year.</>
 <images>nemica01.jpg,nemica02.jpg,nemica03.jpg,nemica04.jpg,nemica05.jpg,nemica06.jpg,nemica07.jpg,nemica01.jpg,nemica02.jpg,nemica03.jpg,nemica04.jpg,nemica05.jpg,nemica06.jpg,nemica07.jpg</>
 
 <title>DOMANDE A DISTANZA</>
 <year>2021</>
 <category>research</>
-<description><I>Domande a distanza 1971—2021</I> is a research on museum didactics and an opportunity to investigate the crisis of cultural venues. The past, present and future of this discipline are analysed through the voices of educators, curators, museologists, philosophers, art historians and architects.</>
+<description>'Domande a distanza 1971—2021' is a research on museum didactics and an opportunity to investigate the crisis of cultural venues. The past, present and future of this discipline are analysed through the voices of educators, curators, museologists, philosophers, art historians and architects.</>
 <images>domande01.jpg,domande02.jpg,domande03.jpg,domande04.jpg,domande05.jpg,domande06.jpg,domande07.jpg,domande08.jpg,domande09.jpg</>
 
 <title>FLOPPY DISK</>
@@ -41,35 +41,35 @@
 <title>BUONGIORNO AL SECCHIO</>
 <year>2020</>
 <category>catalogue</>
-<description>Visual research on the work of Michele Provinciali. As a graphic designer he showed objects from a personal and profound perspective, like in <I>Qualità</I> and <I>Imago</I>, two house organs he curated for Kartell and Bassoli Fotoincisioni.</>
+<description>Visual research on the work of Michele Provinciali. As a graphic designer he showed objects from a personal and profound perspective, like in 'Qualità' and 'Imago', two house organs he curated for Kartell and Bassoli Fotoincisioni.</>
 <images>buon01.jpg,buon02.jpg,buon03.jpg,buon04.jpg,buon05.jpg,buon06.jpg,buon07.jpg,buon08.jpg,buon09.jpg</>
 
 <title>MAFARKA LE FUTURISTE</>
 <year>2020</>
 <category>novel</>
-<description>This book is a typographical representation of Marinetti's original novel <I>Mafarka le Futuriste</I>. It is a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
+<description>This book is a typographical representation of Marinetti's original novel 'Mafarka le Futuriste'. It is a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
 <images>mafarka01.jpg,mafarka02.jpg,mafarka03.jpg,mafarka04.jpg,mafarka05.jpg,mafarka01.jpg,mafarka02.jpg,mafarka03.jpg,mafarka04.jpg,mafarka05.jpg</>
 
 <title>MEET ME IN THE BATHROOM</>
 <year>2020</>
 <category>book</>
-<description><I>MEET ME IN THE BATHROOM</I> is a research that explores the intersections between self-publishing and performance, made by Alessia Prati and Matias Julian Nativo as their final project at IUAV, Venice.</>
+<description>'MEET ME IN THE BATHROOM' is a research that explores the intersections between self-publishing and performance, made by Alessia Prati and Matias Julian Nativo as their final project at IUAV, Venice.</>
 <images>meet01.jpg,meet02.jpg,meet03.jpg,meet04.jpg,meet05.jpg,meet06.jpg,meet07.jpg,meet08.jpg,meet09.jpg</>
 
 <title>IPEROMANZO</>
 <year>2020</>
 <category>novel</>
-<description><I>IPEROMANZO</I> is a novel made for Santarcangelo dei Teatri’s community. The people were asked to write thoughts and give images from their world, then a code created a text merging all those materials, revealing a sort of collective stream of consciousness.</>
+<description>'IPEROMANZO' is a novel made for Santarcangelo dei Teatri’s community. The people were asked to write thoughts and give images from their world, then a code created a text merging all those materials, revealing a sort of collective stream of consciousness.</>
 <images>iper01.jpg,iper02.jpg,iper03.jpg,iper04.jpg,iper05.jpg,iper06.jpg,iper07.jpg,iper08.jpg,iper01.jpg,iper02.jpg,iper03.jpg,iper04.jpg,iper05.jpg,iper06.jpg,iper07.jpg,iper08.jpg,iper01.jpg,iper02.jpg,iper03.jpg</>
 
 <title>MOLTO</>
 <year>2019</>
 <category>magazine</>
-<description>MOLTO is a magazine about the world of periodical publishing. The project was presented in a physical space which was the venue for exhibitions, talks and performances, focused on the themes of the first issue.</>
+<description>'MOLTO' is a magazine about the world of periodical publishing. The project was the venue for exhibitions, talks and performances, focused on the themes of the first issue.</>
 <images>molto01.jpg,molto02.jpg,molto03.jpg,molto04.jpg,molto05.jpg,molto06.jpg,molto07.jpg,molto08.jpg,molto09.jpg,molto10.jpg</>
 
 <title>WAYS OF WORLDMAKING</>
 <year>2019</>
 <category>identity</>
-<description>Visual identity and art direction for the 10th edition of SI Fest OFF, independent festival of photography and visual arts. Supported by a young and enthusiastic team, I worked on the theme of this edition, <I>Ways of Worldmaking</I>, to create the imagery and the stories behind the printed matter.</>
+<description>Visual identity and art direction for the 10th edition of SI Fest OFF, independent festival of photography and visual arts. Supported by a young and enthusiastic team, I worked on the theme of this edition, 'Ways of Worldmaking', to create the imagery and the stories behind the printed matter.</>
 <images>ways01.jpg,ways02.jpg,ways03.jpg,ways04.jpg,ways05.jpg,ways06.jpg,ways07.gif,ways01.jpg,ways02.jpg,ways03.jpg,ways04.jpg,ways05.jpg,ways06.jpg,ways07.gif</>
