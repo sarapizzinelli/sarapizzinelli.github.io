@@ -2,13 +2,18 @@
 <about>I’m a graphic designer, interested in the cultural and artistic field.<br>My practice is focused on visual communication, book design, visual identity and illustration. I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br>You can check out my main works here :)<br><br><br><br><about>
 
 <PROJECTS>
+<title>ALBUME</>
+<year>2022</>
+<category>magazine</>
+<description>‘Albume’ is a zine which visits artists in their kitchens, to cook together and listen to their stories. It is a project born between Amsterdam and Italy. The first featured artist is Sheng Wen Lo.</>
+<images>albume01.jpg,albume02.jpg,albume03.jpg,albume04.jpg,albume05.jpg,albume06.jpg,albume07.jpg,albume08.jpg,albume09.jpg,albume02.jpg,albume03.jpg,albume04.jpg</>
+
 <title>MANICULA</>
 <year>2022</>
 <category>art catalogue</>
 <description>‘Manicula’ is an acoustic and visual experimentation made by Enrico Malatesta (sound researcher) and Chiara Pavolucci (photographer). The project is a collection of active listening and observation exercises. Here you can see the printed kit I designed.</>
 <images>manicula01.jpg,manicula02.jpg,manicula03.jpg,manicula04.jpg,manicula05.jpg,manicula06.jpg,manicula07.jpg,manicula08.jpg,manicula09.jpg,manicula10.jpg</>
 
-<PROJECTS>
 <title>SCINTILLE</>
 <year>2022</>
 <category>identity</>
