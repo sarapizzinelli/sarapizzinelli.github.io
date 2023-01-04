@@ -3,7 +3,7 @@
 
 <PROJECTS>
 <title>ALBUME</>
-<year>2022</>
+<year>2023</>
 <category>magazine</>
 <description>‘Albume’ is a zine which visits artists in their kitchens, to cook together and listen to their stories. It is a project born between Amsterdam and Italy. The first featured artist is Sheng Wen Lo.</>
 <images>albume01.jpg,albume02.jpg,albume03.jpg,albume04.jpg,albume05.jpg,albume06.jpg,albume07.jpg,albume08.jpg,albume09.jpg,albume02.jpg,albume03.jpg,albume04.jpg</>
