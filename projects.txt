@@ -1,5 +1,5 @@
 <generic_info>
-<about>I’m a graphic designer, interested in the cultural and artistic field.<br>My practice is focused on visual communication, book design, visual identity and illustration. I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br>You can check out my main works here :)<br><br><br><br><about>
+<about>I’m a graphic designer, interested in the cultural and artistic field.<br>My practice is focused on visual communication, book design, visual identity and illustration. After a master degree in Design for Publishing at ISIA Urbino, I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br>You can check out my main works here :)<br><br><br><br><about>
 
 <PROJECTS>
 <title>ALBUME</>
