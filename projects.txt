@@ -29,7 +29,7 @@
 <title>SANTARCANGELO 50 FESTIVAL</>
 <year>2021</>
 <category>art catalogue</>
-<description>'Santarcangelo 50 Festival' is a catalog for the 50th edition of Santarcangelo dei Teatri festival. It is a historical narration made through the archive materials from the festival, like posters, letters, photos and documents. The book was published by Corraini Editore.</>
+<description>'Santarcangelo 50 Festival' is a catalogue for the 50th edition of Santarcangelo dei Teatri festival. It is a historical narration made through the archive materials from the festival, like posters, letters, photos and documents. The book is published by Corraini Editore.</>
 <images>santa01.jpg,santa02.jpg,santa03.jpg,santa04.jpg,santa05.jpg,santa06.jpg,santa07.jpg,santa08.jpg,santa09.jpg</>
 
 <title>NEMICA FIGURA</>
