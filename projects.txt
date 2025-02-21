@@ -1,5 +1,5 @@
 <generic_info>
-<about>I’m a graphic designer and illustrator based in Italy. <br><br>I am specialized in designing books, magazines, visual identities for companies or festivals, animations and digital assets for brands. My interests are focused in the world of visual art and fashion industry and I enjoy using illustration as a communicative medium. In the last years I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br><br>You can check out my main works here :)<br><br><br><br><about>
+<about>I’m a graphic designer and illustrator based in Italy. I am specialized in designing books, magazines, visual identities for companies or festivals, animations and digital assets for brands. My interests are focused in the world of visual art and fashion industry and I enjoy using illustration as a communicative medium. In the last years I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br>You can check out my main works here :)<br><br><br><br><about>
 
 <PROJECTS>
 <title>ALBUME</>
