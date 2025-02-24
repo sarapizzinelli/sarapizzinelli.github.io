@@ -2,6 +2,12 @@
 <about>I’m a graphic designer and illustrator based in Italy. I am specialized in designing books, magazines, visual identities for companies or festivals, animations and digital assets for brands. My interests are focused in the world of visual art and fashion industry and I enjoy using illustration as a communicative medium. In the last years I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br>You can check out my main works here :)<br><br><br><br><about>
 
 <PROJECTS>
+<title>OROBIE RESIDENZE ARTISTICHE</>
+<year>2023</>
+<category>identity</>
+<description>ORA is a residential venue for performing arts, immersed in the woods. I designed the logo and the overall visual communication of the project and created the visual identity of the summer festival they hold every year, ‘Rassegna Rami d’Ora’.</>
+<images>ora01.webp,ora02.webp,ora03.webp,ora04.webp,ora05.webp,ora06.webp,ora07.webp</>
+
 <title>ALBUME</>
 <year>2023</>
 <category>magazine</>
