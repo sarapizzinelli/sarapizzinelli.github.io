@@ -36,7 +36,7 @@
 <year>2022</>
 <category>identity</>
 <description>Generation is a startup born to promote a green lifestyle through an app that gives cashback for every sustainable purchase. For this project I designed the entire visual identity.</>
-<images>gen01.webp,gen02.webp,gen03.webp,gen04.webp,gen01.webp,gen02.webp,gen03.webp,gen04.webp</>
+<images>gen01.webp,gen02.webp,gen03.webp,gen04.webp,gen01.webp,gen02.webp,gen03.webp,gen04.webp,gen01.webp,gen02.webp,gen03.webp,gen04.webp</>
 
 <title>SCINTILLE</>
 <year>2022</>
