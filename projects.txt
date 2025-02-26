@@ -2,109 +2,109 @@
 <about>I’m a graphic designer and illustrator based in Italy. I am specialized in designing books, magazines, visual identities for companies or festivals, animations and digital assets for brands. My interests are focused in the world of visual art and fashion industry and I enjoy using illustration as a communicative medium. In the last years I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br>You can check out my main works here :)<br><br><br><br><about>
 
 <PROJECTS>
-<title>A DAY OUTSIDE</>
+<title>A DAY OUTSIDE Cesena/IT</>
 <year>2024</>
 <category>illustration</>
 <description>A Day Outside is a personal project born in 2024. I started to reproduce the most beautiful moments spent outdoors, re-imagining them in a dreamy way and discovering new worlds and spaces.</>
 <images>aday01.webp,aday02.webp,aday03.webp,aday04.webp,aday06.webp,aday07.webp,aday08.webp,aday09.webp,aday10.webp,aday11.webp</>
 
-<title>MAISONETTE</>
+<title>MAISONETTE New York/USA</>
 <year>2024</>
 <category>visual design</>
 <description>For 2 years I worked as a visual designer for Maisonette, a New York based company. We created visual assets and animations for their website, emails and social media, designed the holiday catalogue and worked on the artistic research to evolve the brand’s aesthetics.</>
 <images>maison01.webp,maison02.webp,maison03.webp,maison04.webp,maison05.webp,maison01.webp,maison02.webp,maison03.webp,maison04.webp,maison05.webp</>
 
-<title>OROBIE RESIDENZE ARTISTICHE</>
+<title>ORA Sondrio/IT</>
 <year>2023</>
 <category>identity</>
 <description>ORA is a residential venue for performing arts, immersed in the woods. I designed the logo and the overall visual communication of the project and created the visual identity of the summer festival they hold every year, ‘Rassegna Rami d’Ora’.</>
 <images>ora01.webp,ora02.webp,ora03.webp,ora04.webp,ora05.webp,ora06.webp,ora07.webp,ora01.webp,ora02.webp,ora03.webp,ora04.webp,ora05.webp,ora06.webp,ora07.webp</>
 
-<title>ALBUME</>
+<title>ALBUME Amsterdam/NL</>
 <year>2023</>
 <category>magazine</>
 <description>‘Albume’ is a zine which visits artists in their kitchens, to cook together and listen to their stories. It is a project born between Amsterdam and Italy. The first featured artist is Sheng Wen Lo.</>
 <images>albume01.jpg,albume02.jpg,albume03.jpg,albume04.jpg,albume05.jpg,albume06.jpg,albume07.jpg,albume02.jpg,albume03.jpg,albume04.jpg</>
 
-<title>MANICULA</>
+<title>MANICULA Forlì/IT</>
 <year>2022</>
 <category>art catalogue</>
 <description>‘Manicula’ is an acoustic and visual experimentation made by Enrico Malatesta (sound researcher) and Chiara Pavolucci (photographer). The project is a collection of active listening and observation exercises. Here you can see the printed kit I designed.</>
 <images>manicula01.jpg,manicula02.jpg,manicula03.jpg,manicula04.jpg,manicula05.jpg,manicula06.jpg,manicula07.jpg,manicula08.jpg,manicula09.jpg,manicula10.jpg</>
 
-<title>GENERATION</>
+<title>GENERATION Rome/IT</>
 <year>2022</>
 <category>identity</>
 <description>Generation is a startup born to promote a green lifestyle through an app that gives cashback for every sustainable purchase. For this project I designed the entire visual identity.</>
 <images>gen01.webp,gen02.webp,gen03.webp,gen04.webp,gen01.webp,gen02.webp,gen03.webp,gen04.webp,gen01.webp,gen02.webp,gen03.webp,gen04.webp</>
 
-<title>SCINTILLE</>
+<title>SCINTILLE Verbania/IT</>
 <year>2022</>
 <category>identity</>
 <description>Visual identity and prints for Scintille, a summer festival of performing arts held in Verbania (IT).</>
 <images>scintille01.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg,scintille01.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg</>
 
-<title>RILIEVO</>
+<title>RILIEVO Cesena/IT</>
 <year>2022</>
 <category>art catalogue</>
 <description>'Rilievo - Osservazioni intorno alla Compagnia Mòra' is a work I made with Claudia Castellucci. The book is a visual narrative about the dance company Mòra, a story made up of dialogues, critical texts, drawings and readings, a picture of their creative action.</>
 <images>rilievo01.jpg,rilievo02.jpg,rilievo03.jpg,rilievo04.jpg,rilievo05.jpg,rilievo06.jpg,rilievo07.jpg,rilievo08.jpg,rilievo09.jpg</>
 
-<title>SANTARCANGELO 50 FESTIVAL</>
+<title>SANTARCANGELO FESTIVAL Rimini/IT</>
 <year>2021</>
 <category>art catalogue</>
 <description>'Santarcangelo 50 Festival' is a catalogue for the 50th edition of Santarcangelo dei Teatri festival. It is a historical narration made through the archive materials from the festival, like posters, letters, photos and documents. The book is published by Corraini Editore.</>
 <images>santa01.jpg,santa02.jpg,santa03.jpg,santa04.jpg,santa05.jpg,santa06.jpg,santa07.jpg,santa08.jpg,santa09.jpg</>
 
-<title>NEMICA FIGURA</>
+<title>NEMICA FIGURA Urbino/IT</>
 <year>2021</>
 <category>identity</>
 <description>Visual identity for the 7th edition of 'Urbino e le Città del Libro', a literary festival involving the excellence of the publishing field. The event offers presentations, readings, meetings with authors and workshops every year.</>
 <images>nemica01.jpg,nemica02.jpg,nemica03.jpg,nemica04.jpg,nemica05.jpg,nemica06.jpg,nemica07.jpg,nemica01.jpg,nemica02.jpg,nemica03.jpg,nemica04.jpg,nemica05.jpg,nemica06.jpg,nemica07.jpg</>
 
-<title>DOMANDE A DISTANZA</>
+<title>DOMANDE A DISTANZA Urbino/IT</>
 <year>2021</>
 <category>research</>
 <description>'Domande a distanza 1971—2021' is a research on museum didactics and an opportunity to investigate the crisis of cultural venues. The past, present and future of this discipline are analysed through the voices of educators, curators, museologists, philosophers, art historians and architects.</>
 <images>domande01.jpg,domande02.jpg,domande03.jpg,domande04.jpg,domande05.jpg,domande06.jpg,domande07.jpg,domande08.jpg,domande09.jpg</>
 
-<title>FLOPPY DISK</>
+<title>FLOPPY DISK Urbino/IT</>
 <year>2021</>
 <category>research</>
 <description>This research is a historical analysis of archival media, focusing on the floppy disk as a archaeological object and on how it became the universal symbol for saving.</>
 <images>floppy01.jpg,floppy02.jpg,floppy03.jpg,floppy04.jpg,floppy05.jpg,floppy06.jpg,floppy07.jpg,floppy08.jpg,floppy09.jpg</>
 
-<title>BUONGIORNO AL SECCHIO</>
+<title>BUONGIORNO AL SECCHIO Venezia/IT</>
 <year>2020</>
 <category>catalogue</>
 <description>Visual research on the work of Michele Provinciali. As a graphic designer he showed objects from a personal and profound perspective, like in 'Qualità' and 'Imago', two house organs he curated for Kartell and Bassoli Fotoincisioni.</>
 <images>buon01.jpg,buon02.jpg,buon03.jpg,buon04.jpg,buon05.jpg,buon06.jpg,buon07.jpg,buon08.jpg,buon09.jpg</>
 
-<title>MAFARKA LE FUTURISTE</>
+<title>MAFARKA LE FUTURISTE Urbino/IT</>
 <year>2020</>
 <category>novel</>
 <description>This book is a typographical representation of Marinetti's original novel 'Mafarka le Futuriste'. It is a sacred object, a repository for a new knowledge: its shape evokes an obelisk, a mysterious entity worthy of reverence.</>
 <images>mafarka01.jpg,mafarka02.jpg,mafarka03.jpg,mafarka04.jpg,mafarka05.jpg,mafarka01.jpg,mafarka02.jpg,mafarka03.jpg,mafarka04.jpg,mafarka05.jpg</>
 
-<title>MEET ME IN THE BATHROOM</>
+<title>MEET ME IN THE BATHROOM Venezia/IT</>
 <year>2020</>
 <category>book</>
 <description>'MEET ME IN THE BATHROOM' is a research that explores the intersections between self-publishing and performance, made by Alessia Prati and Matias Julian Nativo as their final project at IUAV, Venice.</>
 <images>meet01.jpg,meet02.jpg,meet03.jpg,meet04.jpg,meet05.jpg,meet06.jpg,meet07.jpg,meet08.jpg,meet09.jpg</>
 
-<title>IPEROMANZO</>
+<title>IPEROMANZO Urbino/IT</>
 <year>2020</>
 <category>novel</>
 <description>'IPEROMANZO' is a novel made for Santarcangelo dei Teatri’s community. The people were asked to write thoughts and give images from their world, then a code created a text merging all those materials, revealing a sort of collective stream of consciousness.</>
 <images>iper01.jpg,iper02.jpg,iper03.jpg,iper04.jpg,iper05.jpg,iper06.jpg,iper07.jpg,iper08.jpg,iper01.jpg,iper02.jpg,iper03.jpg,iper04.jpg,iper05.jpg,iper06.jpg,iper07.jpg,iper08.jpg,iper01.jpg,iper02.jpg,iper03.jpg</>
 
-<title>MOLTO</>
+<title>MOLTO Urbino/IT</>
 <year>2019</>
 <category>magazine</>
 <description>'MOLTO' is a magazine about the world of periodical publishing. The project was the venue for exhibitions, talks and performances, focused on the themes of the first issue.</>
 <images>molto01.jpg,molto02.jpg,molto03.jpg,molto04.jpg,molto05.jpg,molto06.jpg,molto07.jpg,molto08.jpg,molto09.jpg,molto10.jpg</>
 
-<title>WAYS OF WORLDMAKING</>
+<title>WAYS OF WORLDMAKING Rimini/IT</>
 <year>2019</>
 <category>identity</>
 <description>Visual identity and art direction for the 10th edition of SI Fest OFF, independent festival of photography and visual arts. Supported by a young and enthusiastic team, I worked on the theme of this edition, 'Ways of Worldmaking', to create the imagery and the stories behind the printed matter.</>
