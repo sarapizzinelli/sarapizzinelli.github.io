@@ -6,7 +6,7 @@
 <year>2024</>
 <category>illustration</>
 <description>A Day Outside is a personal project born in 2024. I started to reproduce the most beautiful moments spent outdoors, re-imagining them in a dreamy way and discovering new worlds and spaces.</>
-<images>aday01.webp,aday02.webp,aday03.webp,aday04.webp,aday05.webp,aday06.webp,aday07.webp,aday08.webp,aday09.webp,aday10.webp,aday11.webp</>
+<images>aday01.webp,aday02.webp,aday03.webp,aday04.webp,aday06.webp,aday07.webp,aday08.webp,aday09.webp,aday10.webp,aday11.webp</>
 
 <title>MAISONETTE</>
 <year>2024</>
