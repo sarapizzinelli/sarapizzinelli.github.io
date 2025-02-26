@@ -2,6 +2,18 @@
 <about>I’m a graphic designer and illustrator based in Italy. I am specialized in designing books, magazines, visual identities for companies or festivals, animations and digital assets for brands. My interests are focused in the world of visual art and fashion industry and I enjoy using illustration as a communicative medium. In the last years I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br>You can check out my main works here :)<br><br><br><br><about>
 
 <PROJECTS>
+<title>A DAY OUTSIDE</>
+<year>2024</>
+<category>illustration</>
+<description>A Day Outside is a personal project born in 2024. I started to reproduce the most beautiful moments spent outdoors, re-imagining them in a dreamy way and discovering new worlds and spaces.</>
+<images>aday01.webp,aday02.webp,aday03.webp,aday04.webp,aday05.webp,aday06.webp,aday07.webp,aday08.webp,aday09.webp,aday10.webp,aday11.webp</>
+
+<title>MAISONETTE</>
+<year>2024</>
+<category>visual design</>
+<description>For 2 years I worked as a visual designer for Maisonette, a New York based company. We created visual assets and animations for their website, emails and social media, designed the holiday catalogue and worked on the artistic research to evolve the brand’s aesthetics.</>
+<images>maison01.webp,maison02.webp,maison03.webp,maison04.webp,maison05.webp,maison01.webp,maison02.webp,maison03.webp,maison04.webp,maison05.webp</>
+
 <title>OROBIE RESIDENZE ARTISTICHE</>
 <year>2023</>
 <category>identity</>
@@ -19,6 +31,12 @@
 <category>art catalogue</>
 <description>‘Manicula’ is an acoustic and visual experimentation made by Enrico Malatesta (sound researcher) and Chiara Pavolucci (photographer). The project is a collection of active listening and observation exercises. Here you can see the printed kit I designed.</>
 <images>manicula01.jpg,manicula02.jpg,manicula03.jpg,manicula04.jpg,manicula05.jpg,manicula06.jpg,manicula07.jpg,manicula08.jpg,manicula09.jpg,manicula10.jpg</>
+
+<title>GENERATION</>
+<year>2022</>
+<category>identity</>
+<description>Generation is a startup born to promote a green lifestyle through an app that gives cashback for every sustainable purchase. For this project I designed the entire visual identity.</>
+<images>gen01.webp,gen02.webp,gen03.webp,gen04.webp,gen01.webp,gen02.webp,gen03.webp,gen04.webp</>
 
 <title>SCINTILLE</>
 <year>2022</>
