@@ -44,23 +44,11 @@
 <description>Generation is a startup born to promote a green lifestyle through an app that gives cashback for every sustainable purchase. For this project I designed the entire visual identity.</>
 <images>gen01.webp,gen02.webp,gen03.webp,gen04.webp,gen01.webp,gen02.webp,gen03.webp,gen04.webp,gen01.webp,gen02.webp,gen03.webp,gen04.webp</>
 
-<title>SCINTILLE</>
-<year>2022</>
-<category>identity</>
-<description>Visual identity and prints for Scintille, a summer festival of performing arts held in Verbania (IT).</>
-<images>scintille01.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg,scintille01.jpg,scintille02.jpg,scintille03.jpg,scintille04.jpg,scintille05.jpg</>
-
 <title>RILIEVO</>
 <year>2022</>
 <category>art catalogue</>
 <description>'Rilievo - Osservazioni intorno alla Compagnia Mòra' is a work I made with Claudia Castellucci. The book is a visual narrative about the dance company Mòra, a story made up of dialogues, critical texts, drawings and readings, a picture of their creative action.</>
 <images>rilievo01.jpg,rilievo02.jpg,rilievo03.jpg,rilievo04.jpg,rilievo05.jpg,rilievo06.jpg,rilievo07.jpg,rilievo08.jpg,rilievo09.jpg</>
-
-<title>SANTARCANGELO FESTIVAL</>
-<year>2021</>
-<category>art catalogue</>
-<description>'Santarcangelo 50 Festival' is a catalogue for the 50th edition of Santarcangelo dei Teatri festival. It is a historical narration made through the archive materials from the festival, like posters, letters, photos and documents. The book is published by Corraini Editore.</>
-<images>santa01.jpg,santa02.jpg,santa03.jpg,santa04.jpg,santa05.jpg,santa06.jpg,santa07.jpg,santa08.jpg,santa09.jpg</>
 
 <title>NEMICA FIGURA</>
 <year>2021</>
@@ -73,6 +61,12 @@
 <category>research</>
 <description>'Domande a distanza 1971—2021' is a research on museum didactics and an opportunity to investigate the crisis of cultural venues. The past, present and future of this discipline are analysed through the voices of educators, curators, museologists, philosophers, art historians and architects.</>
 <images>domande01.jpg,domande02.jpg,domande03.jpg,domande04.jpg,domande05.jpg,domande06.jpg,domande07.jpg,domande08.jpg,domande09.jpg</>
+
+<title>SANTARCANGELO FESTIVAL</>
+<year>2021</>
+<category>art catalogue</>
+<description>'Santarcangelo 50 Festival' is a catalogue for the 50th edition of Santarcangelo dei Teatri festival. It is a historical narration made through the archive materials from the festival, like posters, letters, photos and documents. The book is published by Corraini Editore.</>
+<images>santa01.jpg,santa02.jpg,santa03.jpg,santa04.jpg,santa05.jpg,santa06.jpg,santa07.jpg,santa08.jpg,santa09.jpg</>
 
 <title>BUONGIORNO AL SECCHIO</>
 <year>2020</>
