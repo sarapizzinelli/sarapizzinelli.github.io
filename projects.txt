@@ -74,12 +74,6 @@
 <description>'Domande a distanza 1971—2021' is a research on museum didactics and an opportunity to investigate the crisis of cultural venues. The past, present and future of this discipline are analysed through the voices of educators, curators, museologists, philosophers, art historians and architects.</>
 <images>domande01.jpg,domande02.jpg,domande03.jpg,domande04.jpg,domande05.jpg,domande06.jpg,domande07.jpg,domande08.jpg,domande09.jpg</>
 
-<title>FLOPPY DISK</>
-<year>2021</>
-<category>research</>
-<description>This research is a historical analysis of archival media, focusing on the floppy disk as a archaeological object and on how it became the universal symbol for saving.</>
-<images>floppy01.jpg,floppy02.jpg,floppy03.jpg,floppy04.jpg,floppy05.jpg,floppy06.jpg,floppy07.jpg,floppy08.jpg,floppy09.jpg</>
-
 <title>BUONGIORNO AL SECCHIO</>
 <year>2020</>
 <category>catalogue</>
@@ -97,12 +91,6 @@
 <category>book</>
 <description>'MEET ME IN THE BATHROOM' is a research that explores the intersections between self-publishing and performance, made by Alessia Prati and Matias Julian Nativo as their final project at IUAV, Venice.</>
 <images>meet01.jpg,meet02.jpg,meet03.jpg,meet04.jpg,meet05.jpg,meet06.jpg,meet07.jpg,meet08.jpg,meet09.jpg</>
-
-<title>IPEROMANZO</>
-<year>2020</>
-<category>novel</>
-<description>'IPEROMANZO' is a novel made for Santarcangelo dei Teatri’s community. The people were asked to write thoughts and give images from their world, then a code created a text merging all those materials, revealing a sort of collective stream of consciousness.</>
-<images>iper01.jpg,iper02.jpg,iper03.jpg,iper04.jpg,iper05.jpg,iper06.jpg,iper07.jpg,iper08.jpg,iper01.jpg,iper02.jpg,iper03.jpg,iper04.jpg,iper05.jpg,iper06.jpg,iper07.jpg,iper08.jpg,iper01.jpg,iper02.jpg,iper03.jpg</>
 
 <title>MOLTO</>
 <year>2019</>
