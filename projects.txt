@@ -2,6 +2,12 @@
 <about>I’m a graphic designer and illustrator based in Italy. I am specialized in designing books, magazines, visual identities for companies or festivals, animations and digital assets for brands. My interests are focused in the world of visual art and fashion industry and I enjoy using illustration as a communicative medium. In the last years I've worked for several artists and festivals, ranging from performance arts, photography and literature.<br>You can check out my main works here :)<br><br><br><br><about>
 
 <PROJECTS>
+<title>ALBUME ISSUE 2</>
+<year>2024</>
+<category>zine/illustration</>
+<description>Albume is a zine about art and food, born between Amsterdam and Italy. For the second issue I designed the layout and all the illustrations.</>
+<images>alb201.webp,alb202.webp,alb203.webp,alb204.webp,alb205.webp</>
+
 <title>A DAY OUTSIDE</>
 <year>2024</>
 <category>illustration</>
@@ -20,10 +26,10 @@
 <description>ORA is a residential venue for performing arts, immersed in the woods. I designed the logo and the overall visual communication of the project and created the visual identity of the summer festival they hold every year, ‘Rassegna Rami d’Ora’.</>
 <images>ora01.webp,ora02.webp,ora03.webp,ora04.webp,ora05.webp,ora06.webp,ora07.webp,ora01.webp,ora02.webp,ora03.webp,ora04.webp,ora05.webp,ora06.webp,ora07.webp</>
 
-<title>ALBUME</>
+<title>ALBUME ISSUE 1</>
 <year>2023</>
 <category>magazine</>
-<description>‘Albume’ is a zine which visits artists in their kitchens, to cook together and listen to their stories. It is a project born between Amsterdam and Italy. The first featured artist is Sheng Wen Lo.</>
+<description>Albume is a zine which visits artists in their kitchens, to cook together and listen to their stories. It is a project born between Amsterdam and Italy. The first featured artist is Sheng Wen Lo.</>
 <images>albume01.jpg,albume02.jpg,albume03.jpg,albume04.jpg,albume05.jpg,albume06.jpg,albume07.jpg,albume02.jpg,albume03.jpg,albume04.jpg</>
 
 <title>MANICULA</>
