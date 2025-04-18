@@ -6,7 +6,7 @@
 <year>2024</>
 <category>zine/illustration</>
 <description>Albume is a zine about art and food, born between Amsterdam and Italy. For the second issue I designed the layout and all the illustrations.</>
-<images>alb201.webp,alb202.webp,alb203.webp,alb204.webp,alb205.webp</>
+<images>alb201.webp,alb202.webp,alb203.webp,alb204.webp,alb205.webp,alb201.webp,alb202.webp,alb203.webp,alb204.webp,alb205.webp</>
 
 <title>A DAY OUTSIDE</>
 <year>2024</>
